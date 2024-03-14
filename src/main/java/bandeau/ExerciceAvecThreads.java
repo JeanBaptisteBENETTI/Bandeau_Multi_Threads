@@ -34,7 +34,7 @@ public class ExerciceAvecThreads {
             bandeauThreaded3.startScenario();
 
             try {
-                bandeauThreaded1.getThread().join();
+                bandeauThreaded1.getThread().join(); // Utilisation de join pour attendre que chaque Treads se terminent avant de continuer
                 bandeauThreaded2.getThread().join();
                 bandeauThreaded3.getThread().join();
             } catch (InterruptedException e) {
