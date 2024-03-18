@@ -25,7 +25,7 @@ public class ExerciceAvecThreads {
 
         // On peut répéter le cycle x fois (ici 3 fois)
         for (int i = 0; i <= 2; i++) {
-            BandeauThreaded bandeauThreaded1 = new BandeauThreaded(b1, s);
+            BandeauThreaded bandeauThreaded1 = new BandeauThreaded(b1, s); // On implémente la "sous classe" de Bandeau
             BandeauThreaded bandeauThreaded2 = new BandeauThreaded(b2, s);
             BandeauThreaded bandeauThreaded3 = new BandeauThreaded(b3, s);
 
